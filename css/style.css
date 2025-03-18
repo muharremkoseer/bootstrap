@@ -1,0 +1,40 @@
+/* Custom styles for Bootstrap website */
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero section styles */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 6rem 2rem;
+    margin-bottom: 0;
+}
+
+/* Card styles */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer styles */
+footer {
+    margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 4rem 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
